@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'font';
+    src: url(../font/Lalezar-Regular.otf);
+}* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "font";
+    list-style: none;
+    text-decoration: none;
+}
+/* header */
+header {
+    width: 100%;
+    background-image: url("../img/banner-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}header .menu {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}.menu .logo_header img {
+    width: 80px;
+    cursor: pointer;
+}.search {
+    padding-top: 24px;
+    width: 310px;
+    position: relative;
+    display: flex;
+}.searchTerm {
+    width: 100%;
+    border: 3px solid #f3801f;
+    border-right: none;
+    padding: 5px;
+    text-align: right;
+    height: 36px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #352F44;
+}.searchTerm:focus {
+    color: #352F44;
+}.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #f3801f;
+    background: #f3801f;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+/* slider */
+.caption_header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}.caption_header img {
+    width: 400px;
+    cursor: pointer;
+}.caption_header h1 {
+    text-align: right;
+    font-size: 60px;
+    color: #352F44;
+    padding: 25px 125px;
+}.caption_header span {
+    color: #f3801f;
+}
+/* about us */
+.about_us {
+    width: 100%;
+    background-color: #fff;
+}
+.about_us .flex_about {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-top: 50px;
+}.about_us .flex_about .img_about img{
+    width: 550px;
+}.about_us .flex_about .text_about{
+    text-align: right;
+    padding: 0 25px;
+    color: #352F44;
+    line-height: 1.5;
+}
+/* content_coffe */
+.content_coffe{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}.content_coffe img{
+    width: 50%;
+    cursor: pointer;
+    transition: all 1s;
+}.content_coffe img:hover{
+    opacity: .7;
+}
+/* menu coffe */
+.menu_coffe{
+    width: 100%;
+    background-color: #fff;
+    padding-top: 50px;
+}.menu_coffe .title_menu{
+    text-align: right;
+    color: #352F44;
+}

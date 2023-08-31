@@ -1,0 +1,52 @@
+@media (min-width: 992px) {
+}
+
+@media screen and (max-width: 1400px) {}
+
+
+@media screen and (max-width: 1200px) {
+    .content_coffe img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .caption_header h1{
+        text-align: right;
+        font-size: 60px;
+        color: #352F44;
+        padding: 18px 0px;
+    }
+    .about_us .flex_about{
+        flex-direction: column-reverse;
+    } 
+   
+}
+
+@media screen and (max-width: 768px) {
+    .search{
+        width: 230px;
+        padding-top: 30px;
+    }
+    .caption_header{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+   
+     .about_us .flex_about .img_about img{
+        width: 330px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .caption_header img{
+        width: 300px;
+    }
+   
+}
+
+@media screen and (max-width: 460px) {}
+
+@media screen and (max-width: 410px) {}
+
+@media screen and (max-width: 350px) {}
